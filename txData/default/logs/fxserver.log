@@ -1,0 +1,48 @@
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [36620] FXServer Starting - 11/3/2026, 4:34:45 PM      
+║             TXADMIN║ ================================================================
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[           resources] Scanning resources.
+[           resources] Found 20 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.1.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[ citizen-server-impl] Couldn't find resource hardcap.
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [16872] FXServer Starting - 11/3/2026, 4:36:07 PM      
+║             TXADMIN║ ================================================================
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[           resources] Scanning resources.
+[           resources] Found 20 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.1.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[ citizen-server-impl] Couldn't find resource hardcap.
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: Cfx failed to reach the server at 69.137.172.47:30120 - check if the sv_listingIpOverride or sv_listingHostOverride in the server config is correct (https://docs.fivem.net/docs/server-manual/server-commands/#sv_listingipoverride-ip). The server might show as listed but players may not be able to connect.
+[ citizen-server-impl] Server list query returned an error: Cfx failed to reach the server at 69.137.172.47:30120 - check if the sv_listingIpOverride or sv_listingHostOverride in the server config is correct (https://docs.fivem.net/docs/server-manual/server-commands/#sv_listingipoverride-ip). The server might show as listed but players may not be able to connect.

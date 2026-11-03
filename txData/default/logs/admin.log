@@ -1,0 +1,14 @@
+================================================================
+======== txAdmin v8.1.1 atop fxserver 35245 Starting - 11/3/2026, 4:30:33 PM
+================================================================
+[16:31:04][previous_law] created admins file
+[16:31:58][previous_law] Config changes: general.serverName
+[16:31:58][previous_law] Changing global settings via setup stepper and started Deployer.
+[16:32:03][previous_law] Setting recipe.
+[16:34:28][previous_law] Running recipe.
+[16:34:45][previous_law] Config changes: server.dataPath
+[16:34:45][previous_law] Completed and committed server deploy.
+================================================================
+======== txAdmin v8.1.1 atop fxserver 35245 Starting - 11/3/2026, 4:35:59 PM
+================================================================
+[16:36:34][previous_law] logged in from 127.0.0.1 via cfxre auth
