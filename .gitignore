@@ -1,0 +1,10 @@
+# Keep local FiveM runtime data and credentials out of Git.
+/txData/
+/server-data/txData/
+/server-data/server.cfg
+/server-data/*.key
+/server-data/*.db
+/server-data/*.sqlite
+*.log
+*.zip
+.env
