@@ -1,0 +1,12 @@
+# Runtime and private server data
+/txData/
+/server-data/
+/server.cfg
+/server-icon.png
+/logs/
+*.log
+*.sql.gz
+*.bak
+.env
+.DS_Store
+Thumbs.db
