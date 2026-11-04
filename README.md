@@ -22,7 +22,7 @@ The FXServer runtime is not stored in this GitHub repository. Cfx distributes it
 1. Download the **Latest recommended** artifact for your operating system from the [official Cfx Server Download page](https://docs.fivem.net/docs/server-download/), then extract it somewhere permanent (for example, `C:\FXServer\server` on Windows).
 2. Start `FXServer.exe` on Windows or `run.sh` on Linux without a server config. This starts txAdmin; if it does not open automatically, visit `http://localhost:40120`. See Cfx's [txAdmin setup guide](https://docs.fivem.net/docs/server-manual/setting-up-a-server-txadmin/).
 3. Link your Cfx account, create a txAdmin password, and create a server profile.
-4. In Recipe Deployer, choose **Popular Recipes → Custom Recipe** and paste this URL:
+4. On the **Deployment Type** screen, choose **Remote URL Template** and paste this recipe URL:
    `https://raw.githubusercontent.com/previouslaw/code-zero-san-andreas/main/recipes/code-zero-qbcore.yaml`
 5. Enter the Cfx server key and MySQL-compatible database connection in txAdmin's setup prompts. Keep them out of GitHub and chat.
 6. Run the recipe and wait for the QBCore database and resources to install. Start the server in txAdmin.
