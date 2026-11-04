@@ -1,22 +1,23 @@
 # Deployment
 
-This public repository includes a txAdmin recipe that installs the QBCore base, database schema, Code Zero resources, and supplied-logo server icon.
+This public repository includes a txAdmin recipe that installs the QBCore base, database schema, Code Zero resources, and supplied-logo server icon. It does not include the FXServer runtime; Cfx distributes that separately as a server artifact.
 
 ## Requirements
 
-- FXServer with txAdmin on Windows or Linux.
+- The official FXServer artifact for your operating system, downloaded from the [Cfx Server Download page](https://docs.fivem.net/docs/server-download/). Choose **Latest recommended** and extract it to a permanent folder.
 - A Cfx.re server registration key.
 - A MySQL-compatible database reachable by FXServer.
 
 ## Install
 
-1. Start FXServer without a server config so txAdmin can initialize, then create a server profile.
-2. Choose **Popular Recipes → Custom Recipe**.
-3. Paste the Code Zero recipe URL:
+1. Download and extract the FXServer artifact. On Windows, the extracted folder contains `FXServer.exe`; on Linux, use the supplied `run.sh`.
+2. Launch FXServer without a server config to initialize txAdmin. If your browser does not open automatically, go to `http://localhost:40120`. Follow Cfx's [txAdmin setup guide](https://docs.fivem.net/docs/server-manual/setting-up-a-server-txadmin/) to link your account and create a profile.
+3. In Recipe Deployer, choose **Popular Recipes → Custom Recipe**.
+4. Paste the Code Zero recipe URL:
    `https://raw.githubusercontent.com/previouslaw/code-zero-san-andreas/main/recipes/code-zero-qbcore.yaml`
-4. Enter the Cfx key and database connection in txAdmin's setup prompts. Use an empty database dedicated to this server.
-5. Run the recipe and wait for it to finish downloading resources and creating the QBCore tables.
-6. Start the server from txAdmin. Configure its public name, description, tags, and optional banner in the Cfx Portal.
+5. Enter the Cfx key and database connection in txAdmin's setup prompts. Use an empty database dedicated to this server.
+6. Run the recipe and wait for it to finish downloading resources and creating the QBCore tables.
+7. Start the server from txAdmin. Configure its public name, description, tags, and optional banner in the Cfx Portal.
 
 The recipe downloads the Code Zero resources from this public repository. The supplied icon is placed in the server data root and loaded by the generated `server.cfg`.
 
