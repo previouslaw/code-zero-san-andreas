@@ -17,12 +17,15 @@ No paid scripts, assets, Tebex dependency, or paid container are included. Upstr
 
 ## Install with txAdmin
 
-1. Install FXServer and open txAdmin. Create a server profile.
-2. Choose **Popular Recipes → Custom Recipe** and paste this URL:
+The FXServer runtime is not stored in this GitHub repository. Cfx distributes it separately as a server artifact.
+
+1. Download the **Latest recommended** artifact for your operating system from the [official Cfx Server Download page](https://docs.fivem.net/docs/server-download/), then extract it somewhere permanent (for example, `C:\FXServer\server` on Windows).
+2. Start `FXServer.exe` on Windows or `run.sh` on Linux without a server config. This starts txAdmin; if it does not open automatically, visit `http://localhost:40120`. See Cfx's [txAdmin setup guide](https://docs.fivem.net/docs/server-manual/setting-up-a-server-txadmin/).
+3. Link your Cfx account, create a txAdmin password, and create a server profile.
+4. In Recipe Deployer, choose **Popular Recipes → Custom Recipe** and paste this URL:
    `https://raw.githubusercontent.com/previouslaw/code-zero-san-andreas/main/recipes/code-zero-qbcore.yaml`
-3. Enter the Cfx server key and MySQL-compatible database connection in txAdmin's setup prompts. Keep them out of GitHub and chat.
-4. Run the recipe and wait for the QBCore database and resources to install.
-5. Start the server in txAdmin. Set the public server name, description, tags, and banner in Cfx Portal.
+5. Enter the Cfx server key and MySQL-compatible database connection in txAdmin's setup prompts. Keep them out of GitHub and chat.
+6. Run the recipe and wait for the QBCore database and resources to install. Start the server in txAdmin.
 
 The recipe downloads this public repository directly, so the first install does not require a separate resource-copy step.
 
