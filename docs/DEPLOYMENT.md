@@ -12,7 +12,7 @@ This public repository includes a txAdmin recipe that installs the QBCore base, 
 
 1. Download and extract the FXServer artifact. On Windows, the extracted folder contains `FXServer.exe`; on Linux, use the supplied `run.sh`.
 2. Launch FXServer without a server config to initialize txAdmin. If your browser does not open automatically, go to `http://localhost:40120`. Follow Cfx's [txAdmin setup guide](https://docs.fivem.net/docs/server-manual/setting-up-a-server-txadmin/) to link your account and create a profile.
-3. In Recipe Deployer, choose **Popular Recipes → Custom Recipe**.
+3. On the **Deployment Type** screen, choose **Remote URL Template**.
 4. Paste the Code Zero recipe URL:
    `https://raw.githubusercontent.com/previouslaw/code-zero-san-andreas/main/recipes/code-zero-qbcore.yaml`
 5. Enter the Cfx key and database connection in txAdmin's setup prompts. Use an empty database dedicated to this server.
